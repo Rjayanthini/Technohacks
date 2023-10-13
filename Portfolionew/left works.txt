@@ -1,0 +1,5 @@
+ Sliding effect in home page for role text
+ @keyframes slide-in1 {
+    to {
+      transform: translateX(0);
+    }
