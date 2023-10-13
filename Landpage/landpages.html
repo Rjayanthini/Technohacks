@@ -1,0 +1,133 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Landpage</title> 
+    <link rel="stylesheet" href="landpages.css"/>
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">Kimchi couture</a>
+      </div>
+      <ul>
+        <li><a href="#image">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#register">Reservation</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="image" id="image"></div>
+  <div class="info">
+    <h1>About</h1>
+    <img src="about1.jpg" style="height:6.5cm; width:8cm; float:right;margin-left: 10px;">
+    <p class="infop">Korea has developed a unique food culture connected to its long agricultural history. Recently, interest in Korean food, especially regarding its health benefits, has greatly increased. However, there are insufficient resources and research available on the characteristics and definitions of Korean cuisine.</p>
+  </div>
+  <div class="info2">
+    <h1>Hereabouts</h1>
+    <img src="about2.jpg" style="height:7.5cm; width:8cm; float:left; margin-right:10px; margin-top: 17px;">
+    <p class="info2p">With a traditional seating arrangement overlooking the banks of the Yamuna, this restaurant offers generous portions. Famous for their seafood and sashimi, the kimbap is a must-try for vegetarians. Bulgogi tukbap (steamed rice with marinated beef), jjamppong sujebi (hand torn noodles mixed with seafood), and dakgalbi (rice with spicy chicken) are among the non-vegetarian options.</p>
+  </div>
+  <div class="menu0" id="menu">
+    <h1>Our signatures include</h1>
+    <div class="image_container0">
+      <img src="kimchi.jpg" style="height:7.5cm; width:8.5cm; float:left; padding-right:35px; padding-left:30px; margin-top: 17px; margin-bottom:15px;">
+      <h1 class="text">Kimchis</h1>
+      <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+      <button class="button">Order Now</button>
+    </div>
+    <div class="image_container0">
+      <img src="bibimbap.jpg" style="height:7.5cm; width:8.5cm; float:left; padding-right:35px; margin-top: 17px; margin-bottom:15px;">
+      <h1 class="text">Bibimbap</h1>
+      <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+      <button class="button">Order Now</button>
+    </div>
+    <div class="image_container0">
+      <img src="bulgogi.jpg" style="height:7.5cm; width:8.5cm; float:left; padding-right:35px; margin-top: 17px; margin-bottom:15px;">
+      <h1 class="text">Bulgogi</h1>
+      <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+      <button class="button">Order Now</button>
+    </div>
+    <div class="image_container0">
+    <img src="koreanbbq.jpg" style="height:7.5cm; width:8.5cm; float:left; padding-right:12px; margin-top: 17px; margin-bottom:15px;">
+    <h1 class="text">Korean BBQ</h1>
+    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+    <button class="button">Order Now</button>
+    </div>
+  </div>
+  <div class="menu1" id="menu1">
+    <div class="image_container">
+      <img src="japche.jpg" style="height:7.5cm; width:8.5cm; float:left; padding-right:35px; padding-left:30px; margin-top: 17px; margin-bottom:15px;">
+      <h1 class="text">Japche</h1>
+      <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+      <button class="button">Order Now</button>
+    </div>
+    <div class="image_container">
+      <img src="tteokbokki.jpg" style="height:7.5cm; width:8.5cm; float:left; padding-right:35px; margin-top: 17px; margin-bottom:15px;">
+      <h1 class="text">Tteokbokki</h1>
+      <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+      <button class="button">Order Now</button>
+    </div>
+    <div class="image_container">
+      <img src="ht.jpg" style="height:7.5cm; width:8.5cm; float:left; padding-right:35px; margin-top: 17px; margin-bottom:15px;">
+      <h1 class="text">Hottoek</h1>
+      <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+      <button class="button">Order Now</button>
+    </div>
+    <div class="image_container">
+    <img src="yakwa.jpg" style="height:7.5cm; width:8.5cm; float:left; padding-right:12px; margin-top: 17px; margin-bottom:15px;">
+    <h1 class="text">Yakwa</h1>
+    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+    <button class="button">Order Now</button>
+    </div>
+  </div>
+  <div class="register" id="register">
+    <h1>Register a table now</h1>
+    <div class="form">
+      <form>
+      <label for="name">Name:</label>
+      <input type="text" id="restaurant_name" name="restaurant_name" required>
+
+      <label for="owner_name">Table for:</label>
+      <select id="tabcount" required>
+        <option value="" disable selected> Select any option</option>
+        <option value="1">Just one person</option>
+        <option value="2">Couples</option>
+        <option value="3">3 people</option>
+        <option value="4">4 people</option>
+        <option value="5">5 people</option>
+        <option value="6">6 people</option>
+      </select>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" required>
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="zip">ZIP Code:</label>
+      <input type="text" id="zip" name="zip" required>
+
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country" required>
+
+      <input type="submit" value="Book a table">
+    </form>
+    </div>
+  </div>
+  <footer>
+    <imagei class="contact">
+      <img src="canva2.jpg" style="width:100%; margin-left:60px; padding-right:120px; height:15cm; margin-bottom:20px;">
+    </imagei>
+    
+  </footer>
+</body>
+</html>
